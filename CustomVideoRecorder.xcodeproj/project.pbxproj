@@ -14,6 +14,7 @@
 		E0269E7C2A26D7AA00EB13C7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0269E7B2A26D7AA00EB13C7 /* Home.swift */; };
 		E0269E7E2A26EC0C00EB13C7 /* CameraViewOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0269E7D2A26EC0C00EB13C7 /* CameraViewOrigin.swift */; };
 		E0269E812A2778DD00EB13C7 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0269E802A2778DD00EB13C7 /* CameraView.swift */; };
+		E0D69CAA2A2870EA00A9AA21 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D69CA92A2870EA00A9AA21 /* CameraViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E0269E7D2A26EC0C00EB13C7 /* CameraViewOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewOrigin.swift; sourceTree = "<group>"; };
 		E0269E7F2A27556900EB13C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E0269E802A2778DD00EB13C7 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		E0D69CA92A2870EA00A9AA21 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				E0269E7F2A27556900EB13C7 /* Info.plist */,
+				E0D69CA82A2870B800A9AA21 /* ViewModel */,
 				E0269E7A2A26D79E00EB13C7 /* View */,
 				E0269E6C2A26D2F500EB13C7 /* CustomVideoRecorderApp.swift */,
 				E0269E6E2A26D2F500EB13C7 /* ContentView.swift */,
@@ -84,6 +87,14 @@
 				E0269E802A2778DD00EB13C7 /* CameraView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		E0D69CA82A2870B800A9AA21 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E0D69CA92A2870EA00A9AA21 /* CameraViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +172,7 @@
 				E0269E6D2A26D2F500EB13C7 /* CustomVideoRecorderApp.swift in Sources */,
 				E0269E812A2778DD00EB13C7 /* CameraView.swift in Sources */,
 				E0269E7E2A26EC0C00EB13C7 /* CameraViewOrigin.swift in Sources */,
+				E0D69CAA2A2870EA00A9AA21 /* CameraViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +229,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
