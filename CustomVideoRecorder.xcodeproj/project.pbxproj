@@ -14,6 +14,10 @@
 		E0269E7C2A26D7AA00EB13C7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0269E7B2A26D7AA00EB13C7 /* Home.swift */; };
 		E0269E7E2A26EC0C00EB13C7 /* CameraViewOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0269E7D2A26EC0C00EB13C7 /* CameraViewOrigin.swift */; };
 		E0269E812A2778DD00EB13C7 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0269E802A2778DD00EB13C7 /* CameraView.swift */; };
+		E0CFF2A92A29AC53008E3D3F /* VideoComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CFF2A82A29AC53008E3D3F /* VideoComposer.swift */; };
+		E0CFF2AC2A29BA2F008E3D3F /* background_audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0CFF2AA2A29BA2F008E3D3F /* background_audio.mp3 */; };
+		E0CFF2B12A29C1C5008E3D3F /* recorded_video.mov in Resources */ = {isa = PBXBuildFile; fileRef = E0CFF2B02A29C1C5008E3D3F /* recorded_video.mov */; };
+		E0CFF2B32A29C592008E3D3F /* ok_video.mov in Resources */ = {isa = PBXBuildFile; fileRef = E0CFF2B22A29C592008E3D3F /* ok_video.mov */; };
 		E0D69CAA2A2870EA00A9AA21 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D69CA92A2870EA00A9AA21 /* CameraViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +31,10 @@
 		E0269E7D2A26EC0C00EB13C7 /* CameraViewOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewOrigin.swift; sourceTree = "<group>"; };
 		E0269E7F2A27556900EB13C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E0269E802A2778DD00EB13C7 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		E0CFF2A82A29AC53008E3D3F /* VideoComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoComposer.swift; sourceTree = "<group>"; };
+		E0CFF2AA2A29BA2F008E3D3F /* background_audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = background_audio.mp3; path = ../../../../../Downloads/background_audio.mp3; sourceTree = "<group>"; };
+		E0CFF2B02A29C1C5008E3D3F /* recorded_video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = recorded_video.mov; path = ../../../../../Downloads/recorded_video.mov; sourceTree = "<group>"; };
+		E0CFF2B22A29C592008E3D3F /* ok_video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = ok_video.mov; path = ../../../../../Downloads/ok_video.mov; sourceTree = "<group>"; };
 		E0D69CA92A2870EA00A9AA21 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +68,9 @@
 		E0269E6B2A26D2F500EB13C7 /* CustomVideoRecorder */ = {
 			isa = PBXGroup;
 			children = (
+				E0CFF2B22A29C592008E3D3F /* ok_video.mov */,
+				E0CFF2B02A29C1C5008E3D3F /* recorded_video.mov */,
+				E0CFF2AA2A29BA2F008E3D3F /* background_audio.mp3 */,
 				E0269E7F2A27556900EB13C7 /* Info.plist */,
 				E0D69CA82A2870B800A9AA21 /* ViewModel */,
 				E0269E7A2A26D79E00EB13C7 /* View */,
@@ -93,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				E0D69CA92A2870EA00A9AA21 /* CameraViewModel.swift */,
+				E0CFF2A82A29AC53008E3D3F /* VideoComposer.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -155,6 +167,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0CFF2B32A29C592008E3D3F /* ok_video.mov in Resources */,
+				E0CFF2B12A29C1C5008E3D3F /* recorded_video.mov in Resources */,
+				E0CFF2AC2A29BA2F008E3D3F /* background_audio.mp3 in Resources */,
 				E0269E742A26D2F600EB13C7 /* Preview Assets.xcassets in Resources */,
 				E0269E712A26D2F600EB13C7 /* Assets.xcassets in Resources */,
 			);
@@ -169,6 +184,7 @@
 			files = (
 				E0269E6F2A26D2F500EB13C7 /* ContentView.swift in Sources */,
 				E0269E7C2A26D7AA00EB13C7 /* Home.swift in Sources */,
+				E0CFF2A92A29AC53008E3D3F /* VideoComposer.swift in Sources */,
 				E0269E6D2A26D2F500EB13C7 /* CustomVideoRecorderApp.swift in Sources */,
 				E0269E812A2778DD00EB13C7 /* CameraView.swift in Sources */,
 				E0269E7E2A26EC0C00EB13C7 /* CameraViewOrigin.swift in Sources */,
